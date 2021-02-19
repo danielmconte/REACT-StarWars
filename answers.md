@@ -1,13 +1,13 @@
 - In action creators, like `getFilmFromAPI`, we use a "regular expression" ---
   what is that regular expression, and what is its purpose?
 
-  In the case is used to search the Star Wars API response for matching patterns. In most cases (if not all) it is used to
+  -- In the case is used to search the Star Wars API response for matching patterns. In most cases (if not all) it is used to
   search for a pattern without knowing the specifics.  So '....' could be a line with at least four characters, where each '.' stands for a single character. 
   
 - We're persisting the Redux store, so if you re-visit the app, it will remember
   the topics you've visited. Where is this stored? How is this done?
 
-Combining PersistGate wrapper in index.js with the persistReducer in store.js will save the store to local storage each time there is a change.
+  -- Combining PersistGate wrapper in index.js with the persistReducer in store.js will save the store to local storage each time there is a change.
   
 - What does `combineReducers` do? Why are we using it? 
   combineReducers used in root.js, bundles the different reducers into a single reducer function in store.js (passed to createStore in store.js)
