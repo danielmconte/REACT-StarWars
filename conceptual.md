@@ -2,7 +2,7 @@
 
 Answer the following questions below:
 
-- What is Redux? Why might you use it?
+1. What is Redux? Why might you use it?
   *Redux combines all your state into a store.  On larger apps it's easier to have one central store (like a database), rather than
   establishing a bunch of separate states.
 
