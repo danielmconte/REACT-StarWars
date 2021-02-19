@@ -3,11 +3,13 @@
 Answer the following questions below:
 
 1. What is Redux? Why might you use it?
-  *Redux combines all your state into a store.  On larger apps it's easier to have one central store (like a database), rather than
+ 
+*Redux combines all your state into a store.  On larger apps it's easier to have one central store (like a database), rather than
   establishing a bunch of separate states.
 
-- What are three features of the Redux developer tool in Chrome?
-  *Tracing actions, skipping actions and custom dispatches
+2. What are three features of the Redux developer tool in Chrome?
+
+  -Tracing actions, skipping actions and custom dispatches
 
 - What is a store?
   *It keeps all the state in a central location (store)
