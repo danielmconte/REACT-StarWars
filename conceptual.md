@@ -36,7 +36,7 @@ Answer the following questions below:
    -In the top-level component the store is passed to the Provider so every child component will have access.
    
 9. What is the purpose of the `useSelector` hook? What does it return?
-1
+
   -useSelector gives you access to the store, so it will return data from objects in the store 
 
 10. Describe the `useDispatch` hook. What do you use it for?
